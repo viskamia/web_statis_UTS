@@ -1,0 +1,375 @@
+:root {
+    --primary: white;
+    --bg: black;
+  }
+  
+  * {
+    margin: 200px;
+    padding: 60px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+
+/* Hero Section */
+#hero {
+  background-image: url(Images/header2.png);
+  background-size:cover;
+  background-position: top center;
+  position:sticky;
+}
+#hero h1 {
+  display: block;
+  padding: 10px 20px;
+  width: fit-content;
+  font-size: 4rem;
+  position: relative;
+  color: black;
+}
+#hero p {
+  display: block;
+  padding: 10px 40px;
+  width: fit-content;
+  font-size: 1rem;
+  position: relative;
+  color: black;
+}
+
+  body {
+    font-family: "Franklin Gothic";
+    background-color: black;
+    color: white;
+    min-height: 3000px;
+  }
+.text {
+  font-size: 24px;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    color: white;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1,9rem;
+}
+
+p, span label, input, textarea, li {
+    color: white
+}
+
+a{
+    text-decoration: none;
+}
+
+/* size navigasi */
+.nav {
+    width: 1200px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1200px) {
+    .main-contaiiner {
+        width: 90%;
+    }
+}
+
+/* logo and navigation menu */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.logo a {
+    color: white;
+}
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+nav ul li a {
+    color: white;
+}
+
+/* button about & regristration */
+.btn {
+  padding: 18px 18px;
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 4px: black; 
+}
+button.btn:hover {
+  background-color: gray;
+}
+button.btn:active {
+  margin-top: 3px;
+  box-shadow: none;
+}
+    
+  
+/* burger */
+.burger div {
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    margin: 7px;
+    transition: all 0.3s;
+    z-index: 99;
+}
+.burger{
+    display:none;
+    z-index: 99;
+    position: fixed;
+    top: 33px;
+    right: 35px;
+}
+
+/* hero section nama capcut dan selogannya*/
+#hero {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.hero-name {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0.5rem;
+}
+.hero-name span {
+  color: white;
+}
+.hero-right img{
+  width: auto;
+}
+.hero-right {
+  display: flex;
+  justify-content: center;
+}
+
+/* Section About CapCut */
+.about {
+  padding: 8rem 7% 1.4rem;
+}
+
+.about h2 {
+  text-align: justify;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+.about h2 span {
+  color: white;
+  text-align: left;
+}
+
+.about .row {
+  display:flex;
+}
+
+.about .row .profil-image {
+  flex: 1 1 1rem;
+}
+
+.about .row .profil-image image {
+  width: 0%;
+  float: left;
+}
+
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.about .row .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+#more {
+  display: none;
+}
+
+button.btn:active {
+  margin-top: 3px;
+  box-shadow: none;
+}
+
+/*fitur */
+.fitur {
+  padding: 8rem 7% 1.4rem;
+}
+
+.fitur h2 {
+  text-align: justify;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+.fitur h2 span {
+  color: white;
+  text-align: left;
+}
+
+/* agency section */
+.agency {
+  padding: 20rem 7% 1.4rem;
+}
+
+.agency h2 {
+  text-align: justify;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+.agency h2 span {
+  color: white;
+}
+
+.agency .row {
+  display: flex;
+}
+
+.agency .row .profil-image {
+  flex: 1 1 1rem;
+}
+
+.agency .row .profil-image image {
+  width: 0%;
+  float: left;
+}
+
+.agency .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.agency .row .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* footer */
+#footer {
+  background-color: white;
+  padding: 80px;
+}
+#footer .footer {
+  min-height: 200px;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+#footer h2 {
+  color: black;
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.brand h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+}
+#footer p {
+  color: black;
+  padding: 80px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-square-instagram {
+  color: orangered;
+  margin-left: 2%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.fa-youtube {
+  color: red;
+  margin-left: 2%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.fa-tiktok {
+  color: black;
+  margin-left: 2%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* End Footer */
+
+/* contact section */
+#contact {
+  padding: 50px;
+}
+.contact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, animax(50px));
+  gap: 3rem;
+}
+.contact-form div {
+  margin-bottom: 1.4rem;
+}
+.contact-form input, 
+.contact-form textarea {
+width: 20%;
+padding: 0.75rem 1.3rem;
+font-family: sans-serif;
+background: rgb(253, 175, 7);
+border: 1px solid;
+border-radius: 3px;
+resize: none;
+}
+.contact-form input ::placeholder.contact-form textarea ::placeholder {
+  color: black;
+}
+
+.contact-form input:focus .contact-form textarea:focus {
+  outline: none;
+  border: 1px solid black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn-submit {
+  width: 20%;
+  padding: .80rem 1.5rem;
+  background-color: gainsboro;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
