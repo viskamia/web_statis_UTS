@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- style css-->
+      <link rel="stylesheet" href="statis_web.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CapCut</title>
+    <link rel="icon" type="image/x-icon" href="Images/capcut.png" />
+  </head>
+
+<body>
+
+<!--Header-->
+
+<header>
+  <div class="main-container">
+  <div class="nav">
+  <div class="logo">
+    <a href="/">CapCut</a>
+  </div>
+  <div id="menu-icon" class="menu-icon">
+    <i class="ph-fill ph-list"></i>
+  </div>
+
+  <nav class="navbar">
+      <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#fitur">Fitur</a></li>
+      <li><a href="#agency">Agency</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://msha.ke/daftarcapcutt" target="_blank">
+      <button class="btn">Regristration</button>
+      </a>
+      </li>
+      </ul>
+      </nav>
+
+            <div class="burger">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
+        </div>
+</header>
+<!--End of Header-->
+
+<!--Section Hero Start-->
+<section id="hero">
+  <div class="hero-left">
+      <h1 class="hero-name">CapCut Indonesia</h1>
+      <p>Capture The Moment and Cut!</p>
+  </div>
+</section>
+</div>
+<!---End of Hero-->
+
+  <!-- about Section START -->
+  <section class="about" id="about">
+    <h2>About CapCut</h2>
+    <div class="icon-about">
+      <a href="#" id="kanan_capcut" onclick="toggleParagraph(event)"
+        ><i data-feather="chevron-right"></i
+      ></a>
+    </div>
+    
+    <div class="row">
+      <div class="about-image">
+        <img src="Images/capcut2.png" alt="capcut" height="250" width="250">
+      </div>
+        <div class="content">
+        <p id="about" style="display: flex;align-items: center;">
+        <p>CapCut adalah sebuah aplikasi inklusif yang sebelumnya dikenal sebagai "Viameker". CapCut dikembangkan oleh perusahaan teknologi dari Tiongkok, ByteDance yang juga mengembangkan TikTok. CapCut dirilis<span id="dots">...</span>
+        <span id="more">pada 10 April 2020. CapCut bisa sebagai wadah bagi Anda yang suka atau mmemiliki hobi mengedit. Mengedit sesuka hati Anda dengan menggunakan fitur-fitur yang ada pada CapCut.</span></p>
+        <button type="button" class="btn">Read More</button>      
+      </div>
+  </section>
+  <!-- about Section END -->
+
+  <!-- fitur Section START -->
+  <section class="fitur" id="fitur">
+    <h2>Fitur CapCut</h2>
+        <div class="icon-fitur">
+          <a href="#" id="kanan_capcut" onclick="toggleParagraph(event)"
+            ><i data-feather="chevron-right"></i
+          ></a>
+        </div>
+
+<!--fitur-fitur CapCut-->
+<div class="row">
+  <div class="about-image">
+    <img src="Images/audio.png" alt="capcut" height="250" width="250">
+    </div>
+    <div class="content">    
+    <p>  CapCut memiliki berbagai macam fitur yang dapat digunakan sesuai keinginan pengguna
+      namun pada CapCut Pro ada beberapa fitur yang harus berlanggan terlebih dahulu
+      jika ingin menggunakan fitur tersebut. CapCut Pro adalah versi canggih dari aplikasi 
+      CapCut yang telah menjadi favorit banyak pengguna, khususnya di kalangan para kreator. 
+      Fitur yang dapat diakses tanpa berlangganan pun tidak kalah kerennya untuk memperindah 
+      editan. Fitur pada CapCut sangatlah banyak.
+      <a href="https://urbandigital.id/fitur-seru-aplikasi-capcut/"target="_blank">klik di sini</a>
+</div>
+</section>
+
+<!-- agency section start-->
+<section class="agency" id="agency">
+  <div class="icon-agency">
+    <a href="#" id="kanan_capcut" onclick="toggleParagraph(event)"
+      ><i data-feather="chevron-right"></i
+    ></a>
+  </div>
+      <div class="content">
+        <h2><span>LDR </span>Agency</h2>
+      <p id="agency" style="display: none">
+      </div>
+
+<!--Registration section start-->
+  <div class="row">
+    <div class="agency-image">
+      <img src="Images/agency.jpg" alt="agency" height="400" width="400">
+    </div>
+      <div class="content">
+      <p id="agency" style="display: flex;align-items: center;">
+      <p> Untuk mengembangkan bakat saya pada bidang editing, saya bergabung pada komunitas 
+          yang sering disebut agency kreator capcut. Jadi, pada agency ini terbentuknya 
+          sekumpulan komunitas kreator capcut yang dapat membuat template video dengan 
+          menggunakan capcut yang akan dipublish di akun mereka masing-masing yang telah 
+          terdaftar sebagai kreator. <br>
+          Menjadi kreator CapCut bisa dapat jutaan ?
+          <a href="https://radarutara.disway.id/read/646875/jadi-creator-capcut-bisa-dapet-jutaan-berikut-tutorialnya"target="_blank">klik di sini</a>
+    </div>
+    </section>
+    <!-- Regristration Section END -->
+
+    <!-- Contact Start -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="contact main-container">
+        <div class="contact-left">
+          <form class="contact-form" action="https://formspree.io/f/mqkookpe" method="POST">
+            <div>
+              <input type="text" placeholder="Name" name="name">
+            </div>
+            <div>
+              <input type="Email" placeholder="Email" name="Email">
+            </div>
+            <textarea
+            name="message" 
+            id="message" 
+            placeholder="message"
+            colums="30" 
+            rows="10"
+            ></textarea>
+            </div>
+            <div>
+              <button class="btn-submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Contact END-->
+
+        <!--Footer-->
+        <section id="footer">
+        <div class="footer-container">
+          <div class="brand"><h1>CapCut Indonesia</h1>
+          <div class="sosmed"></div>
+            <h2>Follow Us</h2>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            </div>
+
+        <!--Cpyright-->
+          <p>Copyright © 2023 Made by Viska Mia Sari. All rights reserved</p>
+          </div>
+          </div>
+        </div>
+
+        <!-- footer end -->
+    
+        <!-- feather icons -->
+        <script>
+          feather.replace();
+        </script>
+    
+        <!-- My JS -->
+        <script src="JS/statis_web.js">
+        </script>    
+</body>
+</html>
